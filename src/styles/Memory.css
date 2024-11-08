@@ -1,0 +1,57 @@
+.memoryPage {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.memoryThumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.memoryThumbnail img {
+  width: 100vw;
+  aspect-ratio: 10 / 7.5;
+}
+
+/* .memoryThumbnail p {
+  position: absolute;
+  top: 5%;
+  color: black;
+  font-size: 40px;
+  background-color: white;
+  align-items: center;
+  padding: 10px 30rem;
+  border-radius: 20px;
+} */
+
+.memoryPage .description {
+  background-color: #fbf4df;
+  text-align: center;
+  padding: 3em 1em;
+}
+
+.memoryPage .description p {
+  font-size: clamp(1rem, 3vw, 3rem);
+}
+
+.memoryPage .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  gap: 1em;
+}
+
+.memoryPage .images img {
+  height: auto;
+  max-width: 30%;
+  margin-bottom: 0.5em;
+  border-radius: 1em;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.566);
+}
