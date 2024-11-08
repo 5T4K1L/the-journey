@@ -18,7 +18,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
-  height: 400px;
+  height: 300px;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -69,10 +69,9 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-
-  transform: scale(1.5);
-
-  margin-top: 3.5rem;
+  transform: scale(0.7);
+  margin-top: -2rem;
+  margin-bottom: 2rem;
 }
 
 .homepage .memories {
